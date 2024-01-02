@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+}

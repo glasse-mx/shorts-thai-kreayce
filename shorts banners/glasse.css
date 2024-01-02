@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+}
+
+#shortsGlasse * {
+    font-family: 'Inter', sans-serif !important;
+}
+
+#shortsGlasse {
+    display: flex;
+    flex-direction: column;
+    min-height: 600px;
+    width: 100%;
+    background: url('./img/glasse-shorts-bg.png') no-repeat center center;
+    background-size: cover;
+    padding-top: 2rem;
+}
+
+#shortsGlasse .banner__row {
+    display: flex;
+    background: #fff;
+    color: #1100A6;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#shortsGlasse .banner__row .brand__block {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#shortsGlasse .banner__row .brand__block img {
+    height: 120px;
+    background: #fff;
+}
+
+#shortsGlasse .banner__row .brand__block h3 {
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+#shortsGlasse .banner__row button {
+    background: #1100A6;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: .5rem 1.25rem;
+    border-color: transparent !important;
+    border-radius: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    #shortsGlasse{
+        min-height: 400px;
+    }
+
+    #shortsGlasse .banner__row {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    #shortsGlasse .banner__row .brand__block {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #shortsGlasse .banner__row .brand__block img {
+        height: 80px;
+    }
+
+    #shortsGlasse .banner__row .brand__block h3 {
+        font-size: 1.5rem;
+    }
+    
+}
